@@ -1,0 +1,19 @@
+.faqs{
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.faq-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.faq-answer{
+    margin-top: 1rem;
+    text-align: left;
+    padding-right: 1.5rem;
+}
