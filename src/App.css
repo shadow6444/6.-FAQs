@@ -1,4 +1,4 @@
-main{
+main {
   width: 100vw;
   height: 100vh;
   background-color: rgb(215, 215, 255);
@@ -7,18 +7,33 @@ main{
   align-items: center;
 }
 
-.faq-section{
+.faq-section {
   text-align: center;
   background-color: rgb(23, 23, 255);
   border-radius: 10px;
   padding: 2rem;
-  width: 50%;
-  height: 70%;
-  overflow:scroll;
-  overflow-x: hidden;
+  width: 80%;
+  height: 60%;
+  overflow: hidden;
+  overflow: scroll;
 }
 
-.faq-section header{
+.faq-section::-webkit-scrollbar {
+  display: none;
+}
+
+.faq-section header {
   margin-bottom: 2rem;
   color: white;
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width:666px) {
+  .faq-section {
+    width: 50%;
+    height: 70%;
+  }
+  .faq-section header {
+    font-size: 1rem;
+  }
 }
